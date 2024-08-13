@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.segunmo.easytodialchecker.EasyToDialCheckerTest" time="0.026" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.segunmo.easytodialchecker.NumericEasyToDialCheckerTest" time="0.029" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/segundo/Downloads/interview/EasyToDialCheckInterview/EasyToDialChecker/target/surefire/surefirebooter8593687485060336462.jar /home/segundo/Downloads/interview/EasyToDialCheckInterview/EasyToDialChecker/target/surefire 2024-08-13T19-31-05_565-jvmRun1 surefire18190819509602634504tmp surefire_013036010246451655243tmp"/>
+    <property name="sun.java.command" value="/home/segundo/Downloads/interview/EasyToDialCheckInterview/EasyToDialChecker/target/surefire/surefirebooter15575640002079445850.jar /home/segundo/Downloads/interview/EasyToDialCheckInterview/EasyToDialChecker/target/surefire 2024-08-13T19-56-52_613-jvmRun1 surefire12434682408840642078tmp surefire_010335724172364109304tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/segundo/Downloads/interview/EasyToDialCheckInterview/EasyToDialChecker/target/test-classes:/home/segundo/Downloads/interview/EasyToDialCheckInterview/EasyToDialChecker/target/classes:/home/segundo/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/home/segundo/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/segundo/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/home/segundo/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/segundo/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/home/segundo/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/segundo/Downloads/interview/EasyToDialCheckInterview/EasyToDialChecker/target/surefire/surefirebooter8593687485060336462.jar"/>
+    <property name="surefire.real.class.path" value="/home/segundo/Downloads/interview/EasyToDialCheckInterview/EasyToDialChecker/target/surefire/surefirebooter15575640002079445850.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+7-Ubuntu-1ubuntu222.04"/>
     <property name="user.name" value="segundo"/>
@@ -51,5 +51,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testEasyToDial" classname="com.segunmo.easytodialchecker.EasyToDialCheckerTest" time="0.019"/>
+  <testcase name="testEasyToDial" classname="com.segunmo.easytodialchecker.NumericEasyToDialCheckerTest" time="0.021"/>
 </testsuite>
