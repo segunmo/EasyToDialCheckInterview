@@ -75,8 +75,8 @@ public class AlphanumericEasyToDialChecker extends EasyToDialChecker {
     @Override
     public boolean isEasyToDial(String phoneNumber) {
         String numericInput = convertToNumeric(phoneNumber);
-        for (int i = 0; i < phoneNumber.length() - 1; i++) {
-            if (!isAdjacent(phoneNumber.charAt(i), phoneNumber.charAt(i + 1))) {
+        for (int i = 0; i < numericInput.length() - 1; i++) {
+            if (!isAdjacent(numericInput.charAt(i), numericInput.charAt(i + 1))) {
                 return false;
             }
         }
